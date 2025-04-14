@@ -3,21 +3,27 @@ import { siteDetails } from "./siteDetails";
 
 export const testimonials: ITestimonial[] = [
     {
-        name: 'John Smith',
-        role: 'CEO at Company',
-        message: `${siteDetails.siteName}'s AI-driven insights have transformed how we approach financial planning for our clients. It's an invaluable resource in the modern financial landscape.`,
-        avatar: '/images/testimonial-1.webp',
+        name: 'Martin KOUMEGNO',
+        role: "President d'une cooperative agricole",
+        message: `Les analyses predictives et les previsions meteorologiques axées sur l' IA de ${siteDetails.siteName} ont transformé la facon dont nous planifions nos cultures et notre saison en génerale.`,
+        avatar: '/images/farmer.webp',
     },
     {
-        name: 'Jane Doe',
-        role: 'CTO at Startup',
-        message: `As a CTO, I'm impressed by ${siteDetails.siteName}'s robust security measures and seamless integrations. It's rare to find an app that balances user-friendliness with such advanced technology.`,
-        avatar: '/images/testimonial-2.webp',
+        name: 'Jeanne AWADE',
+        role: 'Ingenieur des travaux agricoles',
+        message: `Entant qu'ingenieur en agronomie, j'arrive à offrir mes services aux groupements agricole sutout de femme grace à l'application Karinma. Je génere de revenue pour subvenir à mes besoins .`,
+        avatar: '/images/testimonial-2.jpg',
     },
     {
-        name: 'Emily Johnson',
-        role: 'Product Manager',
-        message: `${siteDetails.siteName} is revolutionizing personal finance management. Its intuitive design and powerful features make it an indispensable tool for anyone serious about financial growth.`,
-        avatar: '/images/testimonial-3.webp',
+        name: 'Thomas YAO',
+        role: "Chef d'entreprise agricole",
+        message: `${siteDetails.siteName} revolutionne l'agriculture et permet à des milliers d'agriculteurs d'acceder aux equipements et intrants agricole. Notre entreprise à augmenter son chiffre d'affaire grace à des clients qui nous ont decouvert sur la plateforme Karinma.`,
+        avatar: '/images/testimonial-3.jpg',
     },
+    // {
+    //     name: 'Emily Johnson',
+    //     role: 'Product Manager',
+    //     message: `${siteDetails.siteName} is revolutionizing personal finance management. Its intuitive design and powerful features make it an indispensable tool for anyone serious about financial growth.`,
+    //     avatar: '/images/testimonial-3.webp',
+    // },
 ];

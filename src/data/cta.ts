@@ -1,6 +1,6 @@
 export const ctaDetails = {
-    heading: 'Join Over 1 Million Users To Transform Your Finances',
-    subheading: 'Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!',
+    heading: 'Rejoignez 5000+ agriculteurs et entreprises agricoles qui ont déjà choisi de s\'inscrire sur la plateforme Karinma',
+    subheading: 'Votre voyage vers une agriculture intelligente commence ici. Téléchargez l\'application Karinma aujourd\'hui et faites le premier pas vers une agriculture durable et prospère!',
     appStoreUrl: '#',
     googlePlayUrl: '#'
 }

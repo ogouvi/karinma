@@ -3,23 +3,23 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: `Est-ce que ${siteDetails.siteName} est securisé?`,
+        answer: 'Absolument. Nous utilisons les nouvelles technologies de pointe pour securiser vos informations et nous respectons toutes les conditions de protection de données des utilisateurs',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: `Puis-je utiliser ${siteDetails.siteName} n'importe appareils dont je dispose?`,
+        answer: 'Absolument! Votre compte Karinma se synchronise de manière transparente sur tous vos appareils  - smartphone android,  iphone, et tablet.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: 'Est-ce que les offres publier sur Karinma sont fiables?',
+        answer: `Oui! L'equipe de ${siteDetails.siteName} se charge de verifier la fiabilité de l'offre avant de la publier. De plus, la plupart des offres sont fournis par les partenaires de Karinma .`
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: "Ai-je besoins d'etre douer en informatique pour bien utiliser l'application Karinma?",
+        answer: "Pas du tout. L'interface de Karinma est  très facile à comprendre et intuitive à tous les utilisateurs quelque soit le niveau d'experience.",
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: "Et si j'ai besoin d'aide pour utiliser l'application",
+        answer: "Notre équipe d'assistance dédiée est disponible 24h/24 et 7j/7 via whatsapp ou par email. Nous proposons un guide complet pour vous aider à utiliser l'application. "
     }
 ];

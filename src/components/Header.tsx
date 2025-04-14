@@ -4,11 +4,12 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
 import { HiOutlineXMark, HiBars3 } from 'react-icons/hi2';
-import { FaFingerprint } from 'react-icons/fa';
+
 
 import Container from './Container';
 import { siteDetails } from '@/data/siteDetails';
 import { menuItems } from '@/data/menuItems';
+import { PiPlantBold } from 'react-icons/pi';
 
 const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,7 @@ const Header: React.FC = () => {
                 <nav className="shadow-md md:shadow-none bg-white md:bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-10">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
-                        <FaFingerprint className="text-foreground min-w-fit w-7 h-7" />
+                        <PiPlantBold color= "green" className="text-foreground min-w-fit w-7 h-7" />
                         <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
                             {siteDetails.siteName}
                         </span>
@@ -39,8 +40,8 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                            <Link href="#cta" className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
-                                Download
+                            <Link href="https://expo.dev/artifacts/eas/eXjBpcA78RyzUAyo4vNNTW.apk" className="text-black hover:text-white bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
+                                Telecharger
                             </Link>
                         </li>
                     </ul>
@@ -85,8 +86,8 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                            <Link href="#cta" className="text-black bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit" onClick={toggleMenu}>
-                                Get Started
+                            <Link href="https://expo.dev/artifacts/eas/eXjBpcA78RyzUAyo4vNNTW.apk" className="text-black bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit" onClick={toggleMenu}>
+                                Telecharger
                             </Link>
                         </li>
                     </ul>

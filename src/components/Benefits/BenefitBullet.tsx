@@ -13,7 +13,7 @@ const BenefitBullet: React.FC<IBenefitBullet> = ({ title, description, icon }: I
                 {icon}
             </div>
             <div>
-                <h4 className="text-lg font-semibold">
+                <h4 className="text-lg font-semibold text-[#3d7e30]">
                     {title}
                 </h4>
                 <p className="text-base text-foreground-accent">

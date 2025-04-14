@@ -7,23 +7,23 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Donner aux petits exploitants agricoles et aux entreprises agroalimentaires les moyens de bénéficier de solutions technologiques agricoles de pointe.",
     quickLinks: [
         {
-            text: "Features",
+            text: "Fonctionnalités",
             url: "#features"
         },
         {
-            text: "Pricing",
+            text: "Tarifs",
             url: "#pricing"
         },
         {
-            text: "Testimonials",
+            text: "Temoignages",
             url: "#testimonials"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'karinmasupport@gmail.com',
+    telephone: '+228 90686845',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',

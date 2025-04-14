@@ -1,5 +1,5 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
-    centerImageSrc: '/images/hero-mockup.webp',
+    heading: 'Bienvenue sur la plateforme Karinma',
+    subheading: "Nous créons le plus grand réseau de partage de connaissances, d'experiences et de ressources pour les acteurs du monde agricoles ",
+    centerImageSrc: '/images/home.png',
 }
