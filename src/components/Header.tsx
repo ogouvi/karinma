@@ -40,7 +40,7 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                            <Link href="https://expo.dev/artifacts/eas/otUVNCUGKiBkimWtnyiZKT.apk" className="text-black hover:text-white bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
+                            <Link href="https://expo.dev/artifacts/eas/s3NF7VbJ38XMbRGHPg8zYA.apk" className="text-black hover:text-white bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
                                 Telecharger
                             </Link>
                         </li>
@@ -86,7 +86,7 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                            <Link href="https://expo.dev/artifacts/eas/otUVNCUGKiBkimWtnyiZKT.apk" className="text-black bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit" onClick={toggleMenu}>
+                            <Link href="https://expo.dev/artifacts/eas/s3NF7VbJ38XMbRGHPg8zYA.apk" className="text-black bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit" onClick={toggleMenu}>
                                 Telecharger
                             </Link>
                         </li>
