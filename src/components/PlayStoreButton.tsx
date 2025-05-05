@@ -6,7 +6,7 @@ import clsx from 'clsx'
 const PlayStoreButton = ({ dark }: { dark?: boolean }) => {
     return (
         // <a href={ctaDetails.googlePlayUrl}>
-            <a href='https://expo.dev/artifacts/eas/s3NF7VbJ38XMbRGHPg8zYA.apk'>
+            <a href='https://www.dropbox.com/scl/fi/mb9agmdhmbfbzw0uxdx4p/application-karinma-vo.1.apk?rlkey=a3a3f0158sms62nj1gojd9ov8&st=9ri1mq9u&dl=1'>
             <button
                 type="button"
                 className={clsx("flex items-center justify-center min-w-[205px] mt-3 px-6 h-14 rounded-full w-full sm:w-fit", { "text-white bg-foreground": dark, "text-foreground bg-white": !dark })}
